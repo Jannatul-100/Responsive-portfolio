@@ -251,16 +251,36 @@ footer textarea{
 }
 
 @media screen and (max-width:576px) {
-    .container, .res-cont, footer, .about-items{
+    .container, .res-cont, footer, .about-items, nav, nav>ul{
         flex-direction: column;
     }
-    
+    nav>ul{
+        gap: 20px;
+    }
+    .btn, .btnc{
+        margin-bottom: 20px;
+    }
     footer, .about, .resume{
         padding: 20px;
     }
     .space{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .banner, .ban-content, nav {
+        margin: 20px;
+    }
+
+    .header{
+        background-image: url('../images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        /* padding: 50px 0px; */
+        padding-top: 20px;
+    }
+    .pro-pic{
+        
+        width: 100%;   
     }
     .footer-col{
         width: 100%;
